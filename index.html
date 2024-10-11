@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS FUN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/WinTR.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title">RPS FUN</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="data">
+                <p id="ai">AI</p>
+                <p id="you">YOU</p>
+            </div>
+            <p id="result">-</p>
+            <div class="output">
+                <button class="box" id="system"><i class="fa-regular fa-face-smile icon"></i></button>
+                <button class="box" id="player"><i class="fa-regular fa-face-smile icon"></i></button>
+            </div>
+            <div class="input">
+                <div class="btn">
+                    <button class="btns" id="rock"><i class="fa-solid fa-hand-fist icon"></i></button>
+                    <button class="btns" id="paper"><i class="fa-solid fa-hand icon"></i></button>
+                    <button class="btns" id="scissor"><i class="fa-solid fa-hand-peace icon"></i></button>
+                </div>
+                <div class="cmd">
+                    <button id="reset">RESET</button>
+                    <button id="next">Next Round</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
